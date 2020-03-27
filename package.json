@@ -1,9 +1,7 @@
 {
-  "name": "ui-library",
+  "name": "components-library",
   "version": "1.0.0",
-  "description": "Example components for Platanus",
-  "main": "index.js",
-  "license": "MIT",
+  "description": "Example CSS and Vue Components for Platanus",
   "private": true,
   "engines": {
     "node": "12.x"
