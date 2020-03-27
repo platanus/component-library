@@ -1,3 +1,5 @@
+const path = require('path');
+
 const sidebarGenerator = require('./config/sidebar-generator');
 
 module.exports = {
@@ -10,7 +12,10 @@ module.exports = {
     ],
   },
   plugins: [
-    'live',
+    ['live',
+      {
+        layout: path.resolve(__dirname, './config/vue-live-template.vue'),
+      }],
   ],
   postcss: {
     plugins: [
