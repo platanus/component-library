@@ -6,4 +6,13 @@ module.exports = {
       ...sidebarGenerator.getSidebar(),
     ],
   },
+  plugins: [
+    'live',
+  ],
+  postcss: {
+    plugins: [
+      require('autoprefixer'),
+      require('tailwindcss')('./tailwind.config.js'),
+    ],
+  },
 };
