@@ -1,4 +1,4 @@
-# Inputs
+# Form Inputs
 
 ## Text
 
@@ -37,7 +37,7 @@
 </div>
 ```
 
-# Select Dropdowns
+## Select Dropdowns
 
 ```css
 .bg-icon-chevron-down {
@@ -55,9 +55,9 @@
 </select>
 ```
 
-# Radio and Checkboxes
+## Radio and Checkboxes
 
-## Checkbox
+#### Checkbox
 
 ```html live
 <div class="text-left">
@@ -72,7 +72,7 @@
 </div>
 ```
 
-## Radio
+#### Radio
 
 ```html live
 <div class="text-left">
