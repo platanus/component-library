@@ -24,6 +24,7 @@ module.exports = {
     ],
   },
   plugins: [
+    require('@tailwindcss/custom-forms'),
     plugin(({ addVariant, e }) => {
       addVariant('checked', ({ modifySelectors, separator }) => {
         modifySelectors(({ className }) => `.${e(`checked${separator}${className}`)}:checked`);
