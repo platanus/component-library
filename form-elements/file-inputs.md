@@ -11,9 +11,9 @@
 ```vue live
 <template>
   <label class="flex items-center">
-    <button class="px-8 py-2 mr-2 text-sm font-medium bg-gray-300 rounded-sm cursor-pointer focus:bg-gray-500 focus:outline-none">
+    <div class="px-8 py-2 mr-2 text-sm font-medium bg-gray-300 rounded-sm cursor-pointer focus:bg-gray-500 focus:outline-none">
       Select File
-    </button>
+    </div>
     <p class="truncate">{{ value ? value.name : 'No file chosen' }}</p>
     <input
       class="hidden"
