@@ -166,7 +166,7 @@ export default {
       previewSrc: null,
     };
   },
-  created() {
+  mounted() {
     const container = this.$refs.container;
 
     const uppy = createUppyUploader({
